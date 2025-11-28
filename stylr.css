@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    border-bottom: 2px solid;
+    background: linear-gradient(90deg, #fff 55% ,#ffeaf5 50%);
+    
+}
+
+nav{
+    padding-block: 1rem;
+    background: linear-gradient(90deg, #fff 55% ,#ffeaf5 50%);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.genlayout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.innernav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navitems > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+}
+
+.navsocials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navsocials > i{
+    color: #ed017f;
+    font-size: 16px;
+}
+
+.btnstyle{
+    background-color: #ed017f;
+    border: none;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+.hero{
+    display: flex;
+    align-items: center;
+    padding-top: 8rem;
+    gap: 5rem;
+}
+.herocontent{
+    flex: 1;
+}
+.herocontent > h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.herocontent > p{
+    font-size: 16px;
+    opacity: .4;
+    width: 400px;
+    margin-block: 1.5rem;
+}
+.btnbtn{
+    display: flex;
+    gap: 20px;
+}
+.btnbtn > button:last-child{
+   color: #ed017f;
+   border: 1px solid color #ed017f;
+   background-color: #fff;
+}
+.heroimage{
+    width: 60%;
+    height: 60vh;
+    position: relative;
+}
+.heroimage > img{
+    width: 100px;
+    height: 100px;
+    position: cover;
+}
+.heroimage > span{
+    background-color: #fff;
+    box-shadow: .1rem .1rem 10px #807f7f;
+    border-radius: 25px;
+    padding: .7rem 1rem;
+    font-size: 12px;
+    text-transform: capitalize;
+position: absolute;
+left: 5rem;
+}
+.heroimage > span >i{
+color: #ed017f;
+}
+.smewrapper > h1 {
+text-align: center;
+text-transform: capitalize;
+font-size: 2rem;
+}
+.smewrapper > p {
+text-align: center;
+font-size: 13px;
+width: 600px;
+margin: 1rem auto;
+opacity: .2;
+}
+.second{
+    padding-block: 3rem;
+}
+.smegrid{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.second > h2 {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-block: .3rem;
+}
+.second > p {
+    font-size: 13px;
+    width: 150px;
+}
+
+
+
+
