@@ -665,7 +665,7 @@ grid-template-columns:  repeat(2, 1fr);
 }
 
 .contimage>img{
-  width: 92px;
+  width: 88px;
 }
 
 .griddiv{
@@ -700,18 +700,27 @@ grid-template-columns:  repeat(2, 1fr);
   right: 10px;
   left: -258px;
   width:calc(100% - 40px);
-  height: 298px;
-  
+  height: 300px;
+  gap: 20px;
 }
 .secondcont{
   flex-direction: column;
-  overflow: scroll;
+  /* overflow: scroll; */
   width: 100px;
 }
 .yum{
   margin-left: 220px;
   
 }
+.dot{
+  position: absolute;
+  right: 150px;
+}
+
+/* main{
+  width: 100%;
+} */
+
 }
 
 
