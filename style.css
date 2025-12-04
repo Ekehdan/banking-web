@@ -573,7 +573,7 @@ bottom: -1020px;
 }
 
 /* resposiveness code using media quray */
-@media (min-width: 200px) and (max-width: 430px) {
+@media (min-width: 200px) and (max-width: 930px) {
   .innernav {
     width: cal(100% - 40%);
 
@@ -665,13 +665,17 @@ grid-template-columns:  repeat(2, 1fr);
 }
 
 .contimage>img{
-  width: 88px;
+  width: 80px;
 }
 
 .griddiv{
   grid-template-columns: repeat(2, 1fr);
+ 
 }
 
+.numgrid{
+  margin-bottom: -15px;
+}
 .news{
   margin-top: 50px;
 }
@@ -715,6 +719,10 @@ grid-template-columns:  repeat(2, 1fr);
 .dot{
   position: absolute;
   right: 150px;
+}
+
+.div1{
+ 
 }
 
 /* main{
